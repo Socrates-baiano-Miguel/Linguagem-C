@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    
+    printf("*******************");
+    printf("Jogo Da Adivinhação");
+    printf("*******************");
+    
+    int Ns = 666;
+    
+    printf("%d é o numero zé tu cale a bokinha ae", Ns);
+    
+    return 0;
+}

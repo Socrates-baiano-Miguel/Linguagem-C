@@ -7,8 +7,17 @@ int main() {
     printf("*******************");
     
     int Ns = 666;
+    int chute;
+    printf ("Qual seu Chute?: \n");
+    scanf("%d",&chute);
     
-    printf("%d é o numero zé tu cale a bokinha ae", Ns);
+    if(chute == Ns){
+        printf("NICE!!!!!! \n");
+    }
+    else{
+        printf("IDIOTA \n");
+    }
+    
     
     return 0;
 }
